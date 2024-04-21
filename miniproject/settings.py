@@ -221,6 +221,7 @@ ACCOUNT_EMAIL_REQUIRED = 'mandatory',
 SGINUP_REDIRECT_URL = '/accounts/login'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+STATIC_ROOT = 'miniproject\static'
 
 
 AWS_ACCESS_KEY_ID = 'AKIA4MTWG7QIJ35LVLWQ'
